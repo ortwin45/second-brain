@@ -1,0 +1,11 @@
+[user]
+	email = ortwin@ojothepojo.be
+	name = Ortwin Joniaux
+[alias]
+	co = checkout
+    ci = commit
+    st = status
+    lg = log --oneline --decorate --graph --all
+    br = branch
+    lga = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%cd)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --date=short
+    fe = fetch -a -p -t -f
